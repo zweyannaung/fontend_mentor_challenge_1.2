@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel=" icon" href="./assets/images/favicon-32x32.png">
+
+    <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+    <!-- header================================== -->
+    <header class="">
+      <div class="container">
+        <div class=" row justify-content-center">
+          <div class=" col-12 col-lg-12 col-xl-9">
+            <nav class="navbar navbar-expand-lg bg-white py-5">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img src="./assets/images/logo.svg" alt="">
+                </a>
+                <!-- toggle =====================================-->
+                <div class="">
+                  <a class="d-block d-lg-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    <img src="./assets/images/icon-menu.svg" alt="">
+                    </a>
+                    <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                        <button type="button" class="border-0 bg-white" data-bs-dismiss="offcanvas" aria-label="Close">
+                        <img src="./assets/images/icon-menu-close.svg" alt="">
+                        </button>
+                      </div>
+                      <div class="offcanvas-body mt-5 my-2 d-block d-lg-none text-md-center ttest-md-center">
+                        <div class=" mt-5">
+                          <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                              <a class="nav-link mx-3 text-dark fw-bold my-2" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link mx-3 text-dark fw-bold my-2" href="#">New</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link mx-3 text-dark fw-bold my-2" href="#">popular</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link mx-3 text-dark fw-bold my-2" href="#">Trending</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link mx-3 text-dark fw-bold my-2" href="#">Categories</a>
+                            </li>
+                          </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link mx-3" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-3" href="#">New</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-3" href="#">popular</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-3" href="#">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-3" href="#">Categories</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header-->
+
+    <!-- hero section================================== -->
+    <section class=" container">
+        <div class=" row justify-content-center">
+            <div class=" col-12 col-lg-8 col-xl-6">
+                <div class="">
+                    <img src="./assets/images/image-web-3-desktop.jpg" alt="" class=" w-100 d-none d-lg-inline-block">
+                    <img src="./assets/images/image-web-3-mobile.jpg" alt="" class=" w-100 d-block d-lg-none">
+                </div>
+                <div class=" row">
+                    <div class=" col-12 col-lg-6 col-xl-6 mt-4">
+                        <h1 class=" display-4 fw-bolder lh-1">  The Bright Future of Web 3.0?</h1>
+                    </div>
+                    <!-- <div class=" col-lg-1"></div> -->
+                    <div class=" col-12 col-lg-6 col-xl-6 my-4">
+                        <p class=" mb-4 mb-lg-5 text-danger pj">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                            But is it really fulfilling its promise?  
+                        </p>
+                        <a href="#" class="btn btn-secondary text-uppercase text-white bb px-4 py-2 fw-bold rounded-0 mb-5 mb-lg-0">read more</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class=" col-12 col-lg-4 col-xl-3  mb-5 mb-lg-0">
+                <div class=" bg-dark p-3">
+                    <h2 class=" display-5 fw-bolder text-primary mb-3">  New</h2>
+                    <h5 class="text-white mb-3">Hydrogen VS Electric Cars</h5>
+                    <p class="text-info mb-3">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                    <hr class=" border-4">
+                    <h5 class="text-white mt-4">The Downsides of AI Artistry</h5>
+                    <p class="text-info mt-3">What are the possible adverse effects of on-demand AI image generation?</p>
+                    <hr class=" border-4 mt-3">
+                    <h5 class="text-white mt-4">Is VC Funding Drying Up?</h5>
+                    <p class="text-info mt-3">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end hero section-->
+
+    <!-- feature ======================================-->
+    <section class=" container mt-4"> 
+        <div class="row justify-content-center g-0 g-xl-3">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 mb-lg-0">
+                <div class="card border-0">
+                    <div class="row g-0">
+                      <div class=" col-4 col-md-4 col-lg-4">
+                        <img src="./assets/images/image-retro-pcs.jpg" class="img-fluid  w-100" alt="..." >
+                      </div>
+                      <div class=" col-8 col-lg-8">
+                        <div class="card-body pt-0">
+                          <h3 class=" fw-bolder text-info">01</h3>
+                          <h6 class="card-title fw-bolder">Reviving Retro PCs</h6>
+                          <p class="card-text pz">What happens when old PCs are given modern upgrades?</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12 col-md-6 col-lg-4 col-xl-3 mb-4 mb-lg-0">
+                <div class="card border-0">
+                    <div class="row g-0">
+                      <div class=" col-4 col-lg-4">
+                        <img src="./assets/images/image-top-laptops.jpg" class="img-fluid w-100" alt="...">
+                      </div>
+                      <div class=" col-8 col-lg-8">
+                            <div class="card-body pt-0">
+                                <h3 class="fw-bolder text-info">02</h3>
+                                <h6 class="card-title fw-bolder">Top 10 Laptops of 2022</h6>
+                                <p class="card-text pz">Our best picks for various needs and budgets.</p>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12 col-md-6 col-lg-4 col-xl-3 mb-4 mb-lg-0 ">
+                <div class="card border-0 ms-o ms-lg-1">
+                    <div class="row g-0">
+                      <div class=" col-4 col-lg-4">
+                        <img src="./assets/images/image-gaming-growth.jpg" class="img-fluid w-100" alt="...">
+                      </div>
+                      <div class="col-8 col-lg-8">
+                            <div class="card-body pt-0">
+                                <h3 class=" fw-bolder text-info">03</h3>
+                                <h6 class="card-title fw-bolder"> The Growth of Gaming</h6>
+                                <p class="card-text pz"> How the pandemic has sparked fresh opportunities.</p>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end feature -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

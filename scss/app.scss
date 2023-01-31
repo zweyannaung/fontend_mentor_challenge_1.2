@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+$primary:hsl(35, 77%, 62%);
+$secondary:hsl(5, 85%, 63%);
+
+$white:hsl(36, 100%, 99%);
+$info:hsl(233, 8%, 79%);
+$danger:hsl(236, 13%, 42%);
+$dark:hsl(240, 100%, 5%);
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+p{
+    font-size: 15px;
+    color: $teal-600;
+}
+.pz{
+    font-size: 13px;
+    color: $danger;
+}
+.pj{
+    text-align: justify;
+}
+.bb{
+    letter-spacing: 3px;
+}
+hr{
+    border-bottom: 2px solid $info;
+}
